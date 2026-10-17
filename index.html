@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#2066e0">
+  <meta name="description" content="ШпротPlay — коллекция из 20 минималистичных мини-игр для телефона и компьютера.">
+  <meta property="og:title" content="ШпротPlay — 20 мини-игр">
+  <meta property="og:description" content="Быстрые игры без бэкенда: играйте с клавиатуры, мышью или на тачскрине.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/icons/icon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <title>ШпротPlay — 20 мини-игр</title>
+  <style>html{background:#f7f8fa}body{opacity:1}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}</style>
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#/" aria-label="ШпротPlay, на главную"><span class="brand-mark" aria-hidden="true"><img src="assets/icons/icon.svg" alt="" width="36" height="36"></span><span>ШпротPlay</span></a>
+      <div class="header-actions"><button id="theme-toggle" class="theme-toggle" type="button" aria-label="Сменить тему"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><use href="assets/icons/lucide.svg#moon"></use></svg><span>Тема</span></button><div id="user-slot"></div></div>
+    </div>
+  </header>
+  <main id="app" aria-live="polite" aria-busy="true"></main>
+  <noscript><p>Для запуска ШпротPlay нужен JavaScript.</p></noscript>
+  <script type="module">document.querySelector('#app').setAttribute('aria-busy','false');import('./js/app.js');</script>
+</body>
+</html>

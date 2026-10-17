@@ -1,0 +1,11 @@
+{
+  "name": "ШпротPlay — мини-игры",
+  "short_name": "ШпротPlay",
+  "lang": "ru",
+  "start_url": "./#/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#2066e0",
+  "description": "20 мини-игр для телефона и компьютера",
+  "icons": [{"src":"assets/icons/icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}]
+}

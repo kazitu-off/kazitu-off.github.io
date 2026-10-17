@@ -1,0 +1,6 @@
+# Secrets and local runtime data
+.env
+.env.*
+!.env.example
+server/*.sqlite
+server/*.sqlite-*

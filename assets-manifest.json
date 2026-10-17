@@ -1,0 +1,304 @@
+{
+  "generatedAt": "2026-10-17",
+  "root": "assets/",
+  "count": 37,
+  "notes": "Исходные файлы предоставлены владельцем проекта; превью WebP и SVG-иконки подготовлены локально. Внешние файлы отсутствуют.",
+  "assets": [
+    {
+      "path": "assets/enemy-attack.gif",
+      "type": "image",
+      "format": "gif",
+      "bytes": 3553,
+      "sha256": "5289cb07e748540dbf7e4d915390838d95277830ba7548ad47917282c2a1b7c4",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/enemy-morgaet.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 951,
+      "sha256": "2f2c81d429038a00841879ec449b1aaf074d09245e2686d75f0c7d778687a452",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/enemy-sleep.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 718,
+      "sha256": "c6d1c129218f4bcf496155b816f2f42fd40361def06f9e50222b9184ddc7e715",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/enemy-verevka.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 1182,
+      "sha256": "7fdd50a920dda1056366fac439e915dd55ded36e7ea89ee203a46d2b58450be7",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/enemy-walk.gif",
+      "type": "image",
+      "format": "gif",
+      "bytes": 1898,
+      "sha256": "e7dfbcfd94843fb9d4ce3cb594aacac87f52103b181a23f617259712b9b900d4",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/enemy.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 980,
+      "sha256": "d922fdb0fa0b7df457378c9e3fbe62bb10511e9f88ecb6a1443ca0d19799d707",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/icons/icon.svg",
+      "type": "image",
+      "format": "svg",
+      "bytes": 207,
+      "sha256": "2cc110a8bd74de199bc344ea752fc6647992c9c04b9be4f1fe32272cc8918699",
+      "description": "Иконка приложения"
+    },
+    {
+      "path": "assets/icons/lucide.svg",
+      "type": "image",
+      "format": "svg",
+      "bytes": 834,
+      "sha256": "4ea39f4a9803c0e0fb581a63fd4f39cb361156a3b2affced46e7670946f8e022",
+      "description": "Локальный SVG-спрайт интерфейсных иконок"
+    },
+    {
+      "path": "assets/previews/2048.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 6240,
+      "sha256": "85e6b162643032b9d877ca3ce34b18406ea45bc79e2663bd8c2347fc63cea12e",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/breakout.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 4658,
+      "sha256": "71248d8da17360ec99cfef05930f13e3b88e31a2992ff8a711c5391f25401240",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/clicker.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 5306,
+      "sha256": "9b4e66699d3ab51d439aa0f5699a8594dc3453a806d3a6c4a850c7e689b1841e",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/dodge.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3770,
+      "sha256": "616404293ad7e8e0877702d809f4f9eb47671d6ebedbc5e3822010712bb84129",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/fifteen.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 5894,
+      "sha256": "9c866bdabed8bf486bca4315b2d6553072bef55120685491fb79b2249b6ca958",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/flappy.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 4920,
+      "sha256": "b48858abf51b71459467edb5984dc177ee4813f77736748e572977c865cee305",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/match3.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 6276,
+      "sha256": "ead4253c5e9443392130a32899725ce3f5caa53b7b602914806178664fa3a334",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/maze.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3680,
+      "sha256": "60f5aa878360989678441f23f22185a7f098a8159587dbf43af530e9f09167d2",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/memory.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 6146,
+      "sha256": "062dec2a24fad9f513db32489b45fcfac2fc0e65d59d1f358f0c8353f86627ab",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/minesweeper.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3972,
+      "sha256": "93babd0debdc978f833190ac5233801bf3750d31e7d0f2d3b80fa31954455ea1",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/platformer.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3894,
+      "sha256": "77b813b331d4f970d4fdef0e55a1b1ad489c97dbe44a88b633e56258d5036149",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/pong.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 4620,
+      "sha256": "b3de88a42cadc75e2a0668a5f3bc70cd742ec4d76f2e31b7ebcc4241a342802a",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/reaction.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 5826,
+      "sha256": "f3ca233597b62ba8c0f343f809cdc3853a96b20ccd0509c5a69252ccea384508",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/rps.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 4472,
+      "sha256": "475d8def81f0f1d67722a18d28ce2375697b00fc853b4b4ebd6994e97d4816ea",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/shooter.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3624,
+      "sha256": "0afd82b3509c2e8f1f3a8f1dfdbeb70ecb73b6862d5d3c8a3210410e7f80bb5b",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/snake.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 4764,
+      "sha256": "a0be50de6b27018f52a644cd2d8b5a3f13fea7649c50b9dff44602061eb5c1d5",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/sudoku.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 5734,
+      "sha256": "defbe88bd4f19ecaffa6c1d828f9c609305f4f233c915cdb2489ff520bd76b8e",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/tetris.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 4102,
+      "sha256": "eaf3bba7c0728059f420f27c5eb2db7e6e370fcbfd45917fd39b4be70b621f2e",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/tic-tac-toe.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3512,
+      "sha256": "bbfe0c2c886a73750278f8bfb50ea8abde769f02a93a80a3e23ad6e0619919c7",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/previews/wordle.webp",
+      "type": "image",
+      "format": "webp",
+      "bytes": 3602,
+      "sha256": "8fec1e300281eba0b2832d179f13f196275833f01c52e4729e30200e669bfd9b",
+      "description": "Оптимизированное WebP-превью игры"
+    },
+    {
+      "path": "assets/shprot-dershit-korobky.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 3759,
+      "sha256": "b7080146206c8ddb498efc9bc9078b857efdd9cf7cbf74c928a0f3a2c8c50bb2",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot-idet-s-korobkoy.gif",
+      "type": "image",
+      "format": "gif",
+      "bytes": 17739,
+      "sha256": "f030d050280b85d0903c7b3f3680233e32d2dda8d18427e7a1594391c3b6f024",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot-skolzit.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 2946,
+      "sha256": "e293510a275ed27398fb93542b82c3f2708ed18cf0758462f4b02f1f63ed18de",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot-verevka.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 1080,
+      "sha256": "29cb158779dc2c837665cf068b3ca9e3bd267ecd240c05cdfb52c77be08a6acf",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot-walk.gif",
+      "type": "image",
+      "format": "gif",
+      "bytes": 11297,
+      "sha256": "b86ca341f676e56f89e026913edbcfd95d9b361dad68774a3eb24d696015195d",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 3918,
+      "sha256": "749d76a108baf1b76d9e1309e9911bb85ad5351ca7f7fbec0c658b4686594e92",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot_jump.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 4136,
+      "sha256": "89a8d6cdf8f97d5d109e941d558c3db1be7eaed0396b565d7d870cd40cb11336",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot_kinyl_korobky.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 3375,
+      "sha256": "4d4c792a43358b54d7701746ffc237e57af34a1c6ee426cb1427b19ecc40583f",
+      "description": "Пользовательский спрайт персонажа или врага"
+    },
+    {
+      "path": "assets/shprot_morgaet.png",
+      "type": "image",
+      "format": "png",
+      "bytes": 3867,
+      "sha256": "86e157fdc85b3f271aa3b11eb7365000f056f1f6b3d0dfa49f2d533f8cfc8d98",
+      "description": "Пользовательский спрайт персонажа или врага"
+    }
+  ]
+}
