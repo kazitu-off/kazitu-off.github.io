@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M21 12.8A8.5 8.5 0 1 1 11.2 3 6.7 6.7 0 0 0 21 12.8Z"/></symbol>
+  <symbol id="volume-2" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5ZM19.1 8.9a5 5 0 0 1 0 6.2M22 6a9 9 0 0 1 0 12"/></symbol>
+  <symbol id="volume-x" viewBox="0 0 24 24"><path d="M11 5 6 9H2v6h4l5 4V5ZM23 9l-6 6M17 9l6 6"/></symbol>
+  <symbol id="arrow-left" viewBox="0 0 24 24"><path d="m12 19-7-7 7-7M5 12h16"/></symbol>
+  <symbol id="star" viewBox="0 0 24 24"><path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2-5.6-3-5.6 3 1.1-6.2L3 9.6l6.2-.9L12 3Z"/></symbol>
+</svg>
