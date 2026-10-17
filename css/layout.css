@@ -1,0 +1,16 @@
+.site-header { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(14px); }
+.header-inner { width: min(var(--content), calc(100% - 2rem)); margin: auto; min-height: 72px; display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.brand { display: inline-flex; align-items: center; gap: .7rem; font-weight: 800; text-decoration: none; letter-spacing: -.02em; }
+.brand-mark { display: grid; place-items: center; width: 36px; height: 36px; border-radius: var(--radius-sm); background: var(--accent); color: white; box-shadow: var(--object-shadow); }
+.header-actions { display: flex; align-items: center; gap: .5rem; }
+main { width: min(var(--content), calc(100% - 2rem)); margin: auto; padding: clamp(2rem, 5vw, 5rem) 0 calc(4rem + env(safe-area-inset-bottom)); }
+.hero { max-width: 760px; margin-bottom: 2rem; }
+.eyebrow { margin: 0 0 .6rem; color: var(--accent); font-size: .78rem; font-weight: 800; letter-spacing: .12em; text-transform: uppercase; }
+h1, h2, h3 { line-height: 1.15; letter-spacing: -.035em; }
+h1 { margin: 0; font-size: clamp(2.25rem, 7vw, 5rem); }
+h2 { margin: 0; font-size: clamp(1.6rem, 3vw, 2.2rem); }
+.lede { color: var(--muted); font-size: clamp(1rem, 1.8vw, 1.2rem); max-width: 60ch; }
+.controls { display: grid; grid-template-columns: minmax(0, 1fr); gap: .75rem; margin: 1.5rem 0 2rem; }
+.game-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 220px), 1fr)); gap: 1rem; }
+@media (min-width: 640px) { .controls { grid-template-columns: minmax(0, 1fr) auto; } }
+@media (min-width: 900px) { .game-grid { grid-template-columns: repeat(4, 1fr); } }

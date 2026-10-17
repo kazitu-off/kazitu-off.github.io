@@ -1,0 +1,7 @@
+let root,api,board,turn,running,aiTimer;
+function reset(){clearTimeout(aiTimer);board=Array(9).fill('');turn='X';running=true;render();}
+function win(p){return [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]].some(a=>a.every(i=>board[i]===p));}
+function play(i){if(!running||board[i])return;board[i]=turn;if(win(turn)||board.every(Boolean)){running=false;if(win(turn)){api?.playTone?.('coin');api?.saveScore?.(turn==='X'?1:0);}render();return;}turn=turn==='X'?'O':'X';if(turn==='O')aiTimer=setTimeout(ai,220);render();}
+function ai(){if(!running)return;const free=board.map((v,i)=>v?null:i).filter(i=>i!==null);play(free[Math.floor(Math.random()*free.length)]);}
+function render(){root.querySelector('#board').innerHTML=board.map((v,i)=>`<button aria-label="клетка ${i+1}">${v}</button>`).join('');root.querySelectorAll('#board button').forEach((b,i)=>b.onclick=()=>play(i));root.querySelector('#info').textContent=running?`Ход: ${turn}`:(win('X')?'X победил':win('O')?'O победил':'Ничья');}
+export function init(r,a={}){root=r;api=a;root.innerHTML='<h2>Крестики-нолики</h2><p id="info"></p><div id="board" role="grid"></div><button id="pause">Пауза</button> <button id="again">Заново</button>';root.querySelector('#board').style.cssText='display:grid;grid-template-columns:repeat(3,64px);gap:4px';root.querySelector('#pause').onclick=()=>running=!running;root.querySelector('#again').onclick=reset;reset();}export function start(){running=true}export function pause(){running=false}export function destroy(){clearTimeout(aiTimer);root.replaceChildren()}
